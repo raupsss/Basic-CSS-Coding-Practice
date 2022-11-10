@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+nav {
+    width: auto;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+/* Main */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 0px 40px;
+    /* width: 100vh; */
+}
+
+/* Warna */
+
+.warna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.ungu {
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.biru {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.merah {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.hitam {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.coklat {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+/* Kursi */
+
+.kursi{
+    margin: 0px 10px;
+}
+
+/* Deskripsi */
+
+.deskripsi{
+    width: 25%;
+    margin-top: 50px;
+}
+
+.deskripsi h3, .deskripsi p {
+    margin-bottom: 5px;
+}
+
+.deskripsi h4 {
+    margin-bottom: 20px;
+}
+
+.deskripsi button{
+    width: 100%;
+    background-color: pink;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+}
+
+.footerTitle {
+    padding: 20px 0px 100px 0px;
+}
+
+
+.footerItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    
+}
+
+.footerItem a {
+    color: black;
+    text-decoration: none;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+}
+.explore {
+    display: flex;
+    flex-direction: column;
+}
