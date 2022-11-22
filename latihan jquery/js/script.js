@@ -1,11 +1,15 @@
 $(document).ready(function () {
-    
+
     // Preview Chair
 
     $(".card").click(function (e) {
         e.preventDefault();
         const imgPreview = $("img", this).attr("src");
+        const title = $("#card-title", this).html();
+        const price = $("#card-text", this).html();
         $("#preview").attr("src", imgPreview);
+        $("#nameProduct").html(title);
+        $("#priceProduct").html(price);
 
         window.scrollTo({ top: 0, behavior: "smooth" });
     })
